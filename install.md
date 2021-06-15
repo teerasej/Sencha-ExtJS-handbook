@@ -3,16 +3,17 @@
 
 ## 1. ติดตั้ง Node Runtime
 
-ติดตั้ง Node Runtime ตามลิ้งค์นี้ https://www.youtube.com/watch?v=EOeDDoU4A3M
+- [ดาวน์โหลด และติดตั้ง Node Runtime ตามขั้นตอนนี้](https://github.com/teerasej/node-handbook/blob/master/install-nodejs.md)
 
 
-## 2. ติดตั้ง ExtJS CLI
+## 2. ติดตั้ง CLI
 
-รันคำสั่ง 
+เปิดโปรแกรม Command Prompt (Windows) หรือ Terminal (MacOS) และรันคำสั่ง 
 
 ```bash
 npm install -g @sencha/ext-gen
 ```
+
 
 ## 3. ติดตั้ง
 
