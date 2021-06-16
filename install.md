@@ -8,10 +8,18 @@
 
 ## 2. ติดตั้ง CLI
 
-เปิดโปรแกรม Command Prompt (Windows) หรือ Terminal (MacOS) และรันคำสั่ง 
+เปิดโปรแกรม Command Prompt (Windows) และรันคำสั่ง 
 
 ```bash
 npm install -g @sencha/ext-gen
+npm install -g @sencha/ext-build
+```
+
+หรือถ้าใช้ MacOS อาจต้องใช้การรันคำสั่งใน Terminal ดังด้านล่าง
+
+```bash
+sudo npm install -g @sencha/ext-gen
+sudo npm install -g @sencha/ext-build
 ```
 
 
