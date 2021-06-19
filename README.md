@@ -15,3 +15,4 @@
 ## เพิ่มเติม
 
 - [การ Publish App สำหรับ production](kb/publish-app.md)
+- [การเปิดใช้งาน JavaScript ES6/7/8](kb/enable-es678.md)
