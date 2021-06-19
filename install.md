@@ -13,6 +13,7 @@
 ```bash
 npm install -g @sencha/ext-gen
 npm install -g @sencha/ext-build
+npm install -g @sencha/cmd
 ```
 
 หรือถ้าใช้ MacOS อาจต้องใช้การรันคำสั่งใน Terminal ดังด้านล่าง
@@ -20,6 +21,7 @@ npm install -g @sencha/ext-build
 ```bash
 sudo npm install -g @sencha/ext-gen
 sudo npm install -g @sencha/ext-build
+sudo npm install -g @sencha/cmd
 ```
 
 
