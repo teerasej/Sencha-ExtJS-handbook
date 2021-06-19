@@ -12,5 +12,6 @@
 3. User List with Store
 4. Map (GeoServer)
 
-ติดตั้ง
-สร้างโปรเจค
+## เพิ่มเติม
+
+- [การ Publish App สำหรับ production](kb/publish-app.md)
