@@ -8,6 +8,7 @@
 ext-gen app -i 
 ```
 
-2. สำหรับโปรเจคนี้ ให้ตั้งชื่อว่า 'simple-counter'
+2. ตั้งชื่อโปรเจคว่า **note-app**
 3. เลือกส่วนของ template เป็น **moderndesktopminimal**
 4. เสร็จแล้วให้ใช้คำสั่ง npm start จากในโฟลเดอร์ของโปรเจคเป็นการรัน Web Application ขึ้นมาก
+

@@ -2,15 +2,11 @@
 # Sencha ExtJS 6-7 handbook - Learn from Doing
 
 1. [การติดตั้งโปรแกรม](install.md)
-2. [การลงทะเบียน]()
 
+## Exercise Part 1
 
-## Exercise
-
-1. [Simple Counter](simple-counter/README.md)
-2. Note List
-3. User List with Store
-4. Map (GeoServer)
+2. [Simple Counter](simple-counter/README.md)
+3. [Note List](note-list/README.md)
 
 ## เพิ่มเติม
 
