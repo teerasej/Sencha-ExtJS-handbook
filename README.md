@@ -14,5 +14,6 @@
 
 ## เพิ่มเติม
 
+- [การ Debug](kb/setup-vscode-debugger.md)
 - [การ Publish App สำหรับ production](kb/publish-app.md)
 - [การเปิดใช้งาน JavaScript ES6/7/8](kb/enable-es678.md)
