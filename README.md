@@ -8,6 +8,10 @@
 2. [Simple Counter](simple-counter/README.md)
 3. [Note List](note-list/README.md)
 
+## Exercise ExtReact
+
+- [ExtReact](extreact/README.md)
+
 ## เพิ่มเติม
 
 - [การ Debug](kb/setup-vscode-debugger.md)
