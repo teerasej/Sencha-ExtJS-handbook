@@ -46,7 +46,7 @@ import ContactForm from './ContactForm';
 export default function ContactView() {
     return (
         <Container layout="hbox">
-            <Panel flex="1" layout="fit">
+            <Panel flex='1' layout='fit' padding='10'>
                 <ContactForm />
             </Panel>
         </Container>

@@ -8,7 +8,7 @@
 // src/views/ContactList.js
 
 import React from 'react'
-import { List } from "@sencha/ext-react-modern"
+import { List, Panel } from "@sencha/ext-react-modern"
 
 const Ext = window['Ext'];
 
@@ -45,11 +45,12 @@ export default function ContactList() {
 
     // ใช้งาน list item
     return (
-        <List
-            shadow
-            store={store}
-            itemTpl={itemTemplate}
-        />
+        <Panel title='Contacts' padding='10' shadow>
+            <List
+                store={store}
+                itemTpl={itemTemplate}
+            />
+        </Panel>
     )
 }
 
@@ -69,11 +70,11 @@ import ContactList from './ContactList';
 export default function ContactView() {
     return (
         <Container layout="hbox">
-            <Panel flex="1" layout="fit">
-                <ContactForm />
+            <Panel flex='1' layout='fit' padding='10'>
+              <ContactForm />
             </Panel>
-            <Panel flex="2" layout="fit">
-                <ContactList />
+            <Panel flex='2' layout='fit' padding='10'>
+              <ContactList />
             </Panel>
         </Container>
     )
