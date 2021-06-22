@@ -9,8 +9,7 @@
 import React, { Component } from 'react';
 
 // เรียกใช้ Container component
-import { Container, ExtGrid } from "@sencha/ext-react-modern";
-import { ExtColumn } from "@sencha/ext-react-modern";
+import { Container } from "@sencha/ext-react-modern";
 import { Route, Switch } from 'react-router-dom';
 
 // สังเกตว่ามีการเรียกใช้ ExtJS library ตรงจุดนี้
