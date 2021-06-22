@@ -59,14 +59,19 @@ export default function App() {
 
 import React, { Component } from 'react';
 import { Button, Container, Panel, Titlebar, TreeList } from "@sencha/ext-react-modern";
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, useHistory } from 'react-router-dom';
 const Ext = window['Ext'];
 
 export default function App() {
 
+  // เรียกใช้ history
+  const history = useHistory();
+
   // สร้าง function รับ id ของ menu item ที่ถูกเลือก
   const onTreeMenuClick = (sender, info) => {
     let path = sender.info.node.getId()
+    // ใช้ path ที่ได้เปิดไปยัง Route ที่ต้องการ 
+    history.push(path)
   }
 
 

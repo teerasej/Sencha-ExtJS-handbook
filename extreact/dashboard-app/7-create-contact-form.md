@@ -18,11 +18,10 @@ import {
 
 export default function ContactForm() {
   return (
-    <FormPanel padding='20'>
-      <FieldSet title="New Contact" defaults={{labelAlign: "placeholder"}}>
+    <FormPanel padding='20' shadow title='New Contact'>
+      <FieldSet>
         <TextField label='First name' required />
         <TextField label='Last name' required />
-        <EmailField label='Email' placeholder='me@sencha.com' />
       </FieldSet>
       <Toolbar shadow={false} docked="bottom" layout={{ pack: 'right' }}>
         <Button text="Add"/>

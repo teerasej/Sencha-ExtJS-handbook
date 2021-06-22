@@ -17,35 +17,28 @@ export default function ContactList() {
     // สร้าง store สำหรับ feed ข้อมูลให้ List Component
     const store = Ext.create('Ext.data.Store', {
         data: [{
-            id: 1,
-            first_name: "Suzanna",
-            last_name: "Lounds",
-            phone: "180-809-4642"
-        }, {
-            id: 2,
-            first_name: "Deidre",
-            last_name: "West-Frimley",
-            phone: "667-456-4774"
-        }, {
-            id: 3,
-            first_name: "Theo",
-            last_name: "Spyvye",
-            phone: "704-602-1020"
-        }]
+                firstName: "Suzanna",
+                lastName: "Lounds"
+            }, {
+                firstName: "Deidre",
+                lastName: "West-Frimley"
+            }, {
+                firstName: "Theo",
+                lastName: "Spyvye"
+            }]
     })
 
     // สร้าง template สำหรับ list item 
     // สังเกตว่ารับข้อมูลเข้ามาเป็น object
     const itemTemplate = data => (
         <div>
-            <div style={{ fontSize: '16px', marginBottom: '5px' }}>{data.first_name} {data.last_name}</div>
-            <div style={{ fontSize: '12px', color: '#666' }}>{data.title}</div>
+            <div style={{ fontSize: '16px', marginBottom: '5px' }}>{data.firstName} {data.lastName}</div>
         </div>
     )
 
     // ใช้งาน list item
     return (
-        <Panel title='Contacts' padding='10' shadow>
+        <Panel title='Contacts' shadow scrollable>
             <List
                 store={store}
                 itemTpl={itemTemplate}
@@ -70,7 +63,7 @@ import ContactList from './ContactList';
 export default function ContactView() {
     return (
         <Container layout="hbox">
-            <Panel flex='1' layout='fit' padding='10'>
+            <Panel flex='1' padding='10'>
               <ContactForm />
             </Panel>
             <Panel flex='2' layout='fit' padding='10'>
