@@ -72,14 +72,13 @@ export default function App() {
 
   return (
       <Container viewport="true" fullscreen layout="fit">
-        <Titlebar title="Dashboard" docked="top">
-        </Titlebar>
+        <Titlebar title="Dashboard" docked="top"/>
         <Panel scrollable docked="left" shadow zIndex={2}>
           <TreeList
             ui="nav"
             expanderFirst={false}
 
-            // กำหนด function ให้ onItemclick
+            {/* กำหนด function ให้ onItemclick */}
             onItemclick={onTreeMenuClick}
             selection={'/'}
             store={{
@@ -87,7 +86,7 @@ export default function App() {
                 children: [
                   { id: '/', text: 'Home', iconCls: 'x-fa fa-home', leaf: true },
                   
-                  // สร้าง menu item ที่ 2
+                  {/* สร้าง menu item ที่ 2 */}
                   { id: '/form', text: 'Form', iconCls: 'x-fa fa-file-signature', leaf: true }
                 ]
               }
