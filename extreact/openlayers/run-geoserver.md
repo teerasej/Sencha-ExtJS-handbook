@@ -8,12 +8,12 @@
 docker pull kartoza/geoserver
 ```
 
-## 2. 
+## 2. รัน docker
 
 รันโดยใช้คำสั่ง 
 
 ```
-docker run -d -p 8600:8080 -e SAMPLE_DATA=true \
+docker run -d -p 8600:8080 \
 -e GEOSERVER_ADMIN_USER=admin \
 -e GEOSERVER_ADMIN_PASSWORD=1234 \
 --name geoserver kartoza/geoserver 
